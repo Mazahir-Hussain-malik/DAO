@@ -4,12 +4,12 @@ import token from "../../assets/landingpage/token.svg";
 const About = () => {
   return (
     <div>
-      <div className="flex items-center justify-center flex-col w-[70%] mx-auto">
+      <div className="flex items-center justify-center flex-col md:w-[70%] w-[95%] mx-auto">
         <h2 className="text-[#fff] flex items-center justify-center gap-[1rem] md:text-[56px] text-[30px] font-semibold leading-[44px] my-[1rem] py-[1rem]">
           <img src={token} alt="" className="md:w-auto w-[20%]" /> ABOUT
         </h2>
 
-        <p className="md:text-[24px] text-[16px] font-normal my-[1rem] text-center leading-[50px]">
+        <p className="md:text-[24px] text-[14px] font-normal my-[1rem] md:text-center text-justify leading-[50px]">
           <span className="text-[#33BC24]">0xEthDao</span> is the world’s 1st
           DeFi utility NFT ecosystem focused on investing in and incubating
           Metaverse and Web3 unicorns and aspires to be the world’s #1 Metaverse
