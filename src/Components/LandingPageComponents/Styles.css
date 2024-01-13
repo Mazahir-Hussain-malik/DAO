@@ -28,6 +28,11 @@
     lightgray 0% 0% / 100px 100px repeat;
 }
 
+.roadmap {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../assets/landingpage/RoadmapBgImage.svg);
+}
+
 .mainDiv {
   /* background: url(../../assets/landingpage/trasuryBgimage.svg),
     rgb(255, 253, 253) 10% 10% / 200px 200px repeat;

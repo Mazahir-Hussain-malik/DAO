@@ -6,6 +6,8 @@ import {
   Treasury,
   Markets,
   Investment,
+  About,
+  Roadmap,
 } from "../Components/index";
 import Stats from "../Components/LandingPageComponents/Stats";
 
@@ -19,6 +21,8 @@ const HomePage = () => {
       <Markets />
       <Stats />
       <Investment />
+      <About />
+      <Roadmap />
     </div>
   );
 };
