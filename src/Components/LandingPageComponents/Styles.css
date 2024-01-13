@@ -1,0 +1,59 @@
+.headerBgimage {
+  background-image: url(../../assets/landingpage/header.svg);
+  background-size: 110%;
+}
+
+.howItWork {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/landingpage/wallpaperbetter.svg);
+}
+.treasury {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/landingpage/trasuryBgimage.svg);
+}
+.market {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/landingpage/wallpaperbetter.svg);
+}
+.stats {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/landingpage/statsbg.svg);
+}
+.market {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/landingpage/wallpaperbetter.svg);
+}
+.cards {
+  background-image: url(../../assets//landingpage/trasuryBgimage.svg),
+    lightgray 0% 0% / 100px 100px repeat;
+}
+
+.mainDiv {
+  /* background: url(../../assets/landingpage/trasuryBgimage.svg),
+    rgb(255, 253, 253) 10% 10% / 200px 200px repeat;
+  opacity: 1; */
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgba(255, 255, 255, 0.29);
+}
+
+.roateImage {
+  animation: rotate;
+  transition: all ease-in-out 3s;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
