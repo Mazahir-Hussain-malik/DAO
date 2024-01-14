@@ -22,7 +22,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <div>
+      <div className=" fixed w-[100%] bg-[#040B11] z-[999]">
         {/* for large screens */}
         <div className="md:block hidden">
           <nav className="flex md:justify-around  items-center item-start py-[2rem] md:flex-row flex-col">
