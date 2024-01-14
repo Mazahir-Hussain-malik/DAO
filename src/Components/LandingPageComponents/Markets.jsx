@@ -46,7 +46,7 @@ const Markets = () => {
         </p>
       </div>
 
-      <div className="cards grid md:grid-cols-5 grid-cols-1 w-[80%] mx-auto py-4 px-8 gap-[2rem] items-center bg-[lightgray] rounded-[19px] ">
+      <div className="cards grid md:grid-cols-5 grid-cols-1 w-[80%] mx-auto py-4 px-8 gap-[2rem] items-center  rounded-[19px] mainDiv ">
         {cardsData.map(({ id, image }) => {
           return (
             <div

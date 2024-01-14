@@ -28,7 +28,7 @@ const Stats = () => {
     },
     {
       id: 3,
-      image: Rectangle1,
+      image: Rectangle2,
       owner: "Treasury Assets Value",
       btnText: "14,510,522",
       border1: border1,
@@ -36,7 +36,7 @@ const Stats = () => {
     },
     {
       id: 4,
-      image: Rectangle1,
+      image: Rectangle3,
       owner: "Total value Locked",
       btnText: "195,456,052",
       border1: border1,
@@ -65,7 +65,7 @@ const Stats = () => {
                 borderRadius: "14px",
                 background: "var(--Surface-main, #141B22)",
               }}
-              className="text-center relative md:p-[3rem] p-[1rem] hover:scale-105 transition-all ease-in-out delay-150 md:w-[100%] w-[95%] mx-auto"
+              className="text-center relative md:p-[3rem] p-[1rem] hover:scale-105 transition-all ease-in-out delay-150 md:w-[100%] w-[95%] mx-auto flex flex-col items-center justify-center"
             >
               <img
                 src={border1}
