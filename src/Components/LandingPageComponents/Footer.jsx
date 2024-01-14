@@ -1,4 +1,3 @@
-import React from "react";
 import "./Styles.css";
 import Btn from "../Btn";
 import { IoLogoTwitter } from "react-icons/io";
@@ -37,36 +36,36 @@ const Footer = () => {
             />
             <Btn text={"SUBSCRIBE"} style={""} />
           </div>
-          <div className="my-[2rem] grid grid-cols-6 md:gap-[0.3rem] gap-[1rem] md:w-[50%] mx-auto ">
-            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15]">
-              <p className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
+          <div className="my-[2rem] grid grid-cols-6 md:gap-[2rem] gap-[1rem] md:w-[50%] mx-auto ">
+            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
+              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white ">
                 <IoLogoTwitter />
-              </p>
+              </a>
             </div>
-            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15]">
-              <p className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
+            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
+              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
                 <FaFacebook />
-              </p>
+              </a>
             </div>
-            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15]">
-              <p className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
+            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
+              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
                 <BiLogoTelegram />
-              </p>
+              </a>
             </div>
-            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15]">
-              <p className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
+            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
+              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
                 <IoLogoYoutube />
-              </p>
+              </a>
             </div>
-            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15]">
-              <p className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
+            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
+              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
                 <IoLogoTwitter />
-              </p>
+              </a>
             </div>
-            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15]">
-              <p className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
+            <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
+              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
                 <FaFacebook />
-              </p>
+              </a>
             </div>
           </div>
         </div>

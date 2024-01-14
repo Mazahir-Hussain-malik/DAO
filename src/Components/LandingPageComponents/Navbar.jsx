@@ -1,10 +1,10 @@
-import React from "react";
 import logo from "../../assets/landingpage/logo.svg";
 import mdi_theme from "../../assets/landingpage/mdi_theme.svg";
 import Btn from "../Btn";
 import { RxCross1 } from "react-icons/rx";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -34,15 +34,19 @@ const Navbar = () => {
                 return (
                   <li
                     key={index}
-                    className="text-[#fff] font-clash-display text-16 font-bold leading-24 tracking-wider uppercase list-none"
+                    className="text-[#fff] hover:text-[#0BDF0E] duration-all transition-all font-clash-display text-16 font-bold leading-24 tracking-wider uppercase list-none"
                   >
-                    {items}
+                    <a href="#">
+                      {items}
+                    </a>
                   </li>
                 );
               })}
             </div>
             <div className="">
-              <Btn text={"Launch App"} />
+              <Link to='/dashboard'>
+                <Btn text={"Launch App"} />
+              </Link>
             </div>
             <div>
               <div className=" bg-gray-600 p-4  rounded-full  ">
@@ -67,11 +71,10 @@ const Navbar = () => {
             </div>
 
             <div
-              className={`${
-                toggle
-                  ? "absolute h-screen bg-black w-[70%] top-[12%] transition-all ease-out delay-150"
-                  : "hidden"
-              }`}
+              className={`${toggle
+                ? "absolute h-screen bg-black w-[70%] top-[12%] transition-all ease-out delay-150"
+                : "hidden"
+                }`}
             >
               <div className="flex gap-[2rem] absolute left-[5%]   flex-col md:my-0 my-1">
                 {navlinks.map((items, index) => {
@@ -86,7 +89,9 @@ const Navbar = () => {
                 })}
               </div>
               <div className="absolute bottom-[55%] left-[5%]">
-                <Btn text={"Launch App"} style={"z-[999] w-[100%]"} />
+                <Link to='/dashboard'>
+                  <Btn text={"Launch App"} style={"z-[999] w-[100%]"} />
+                </Link>
               </div>
               <div className="w-[100%]">
                 <div className=" bg-gray-600 p-4  rounded-full w-[15%] absolute bottom-[45%] left-[5%] ">
