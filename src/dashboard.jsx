@@ -18,10 +18,10 @@ import ArrowDown2 from "./assets/dashboard/ArrowDown2.png"
 import DiamontIcon from "./assets/dashboard/DiamontIcon.svg"
 import WalletIcon from "./assets/dashboard/WalletIcon.svg"
 import { CiSearch } from "react-icons/ci";
-
-import DashboardComponent from "./components/Dashboard";
+import DashboardComponent from "./Components/DashboardComponent";
 import SwapComponent from "./components/Swap";
 import StakeComponent from "./components/Stake";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -37,9 +37,9 @@ const Dashboard = () => {
         <header className=" bg-black  sticky top-0 inset-x-0 flex flex-wrap sm:justify-start sm:flex-nowrap z-[48] w-full text-sm py-2.5 sm:py-4 lg:ps-64 dark:bg-gray-800 dark:border-gray-700">
           <nav className="flex sm:flex-row flex-col basis-full items-center w-full mx-auto px-4 sm:px-6 md:px-8" aria-label="Global">
             <div className="me-5 lg:me-0 lg:hidden">
-              <a className="flex-none py-[9px] lg:px-[33px] px-4 md:bg-[#1D253B] bg-black rounded-[8px] " href="#" aria-label="Brand">
+              <Link to='/' className="flex-none py-[9px] lg:px-[33px] px-4 md:bg-[#1D253B] bg-black rounded-[8px] " href="#" aria-label="Brand">
                 <img src={logo} alt="logo" />
-              </a>
+              </Link>
             </div>
 
             <div className="w-full flex lg:flex-row flex-col lg:items-center items-start lg:gap-0 gap-4 sm:justify-end justify-start lg:justify-between ">
@@ -69,7 +69,7 @@ const Dashboard = () => {
               <div className="flex flex-row flex-wrap items-center lg:justify-end justify-start gap-2 lg:space-y-0 space-y-2">
                 <div className="relative">
                   <input type="text" placeholder="Search “Stake, Swap”" className=" focus:outline-none focus:ring-0 focus:border-transparent hover:border-gray-300 transition-all duration-300 text-white font-normal lg:text-xl text-sm lg:py-[12px] py-2 lg:px-[13px] px-2 bg-[#1D253B] rounded-[10px]" />
-                  <a href="#" className="absolute lg:text-xl text-sm top-3 right-4  text-white">
+                  <a href="#" className="absolute lg:text-xl text-sm md:top-4 top-3 right-4  text-white">
                     <CiSearch />
                   </a>
                 </div>
@@ -189,10 +189,10 @@ const Dashboard = () => {
 
         <div id="" className="  hidden fixed top-0 start-0 bottom-0 z-[60] w-64 bg-[#172231] pt-7 pb-10 overflow-y-auto lg:block lg:translate-x-0 lg:end-auto lg:bottom-0">
           <div className="px-6">
-            <a className="flex-none" href="#" aria-label="Brand">
+            <Link to="/" className="flex-none" href="#" aria-label="Brand">
 
               <img src={logo} alt="logo" className=" py-[9px] px-[33px] bg-[#1D253B] rounded-[8px]" />
-            </a>
+            </Link>
             <div className="flex md:flex-row flex-col gap-2 md:space-y-0 space-y-1 items-center justify-center py-[22px] border-b-4 border-[#1D273C]">
               <a href="#">
                 <img src={teligramicon} className="w-[22px] h-[22px]" alt="icon" />
