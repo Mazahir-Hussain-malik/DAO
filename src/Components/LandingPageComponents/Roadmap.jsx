@@ -15,7 +15,7 @@ const Roadmap = () => {
           <img src={roadmap} alt="" className="mx-auto md:block hidden" />
         </div>
         <div className="grid grid-cols-1 gap-[2rem]">
-          <div className=" lg:w-[300.59px] w-[98%] h-[226.75px] top-[16%] left-[25%]  bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
+          <div className=" lg:w-[300.59px] w-[98%] mx-auto h-[226.75px] top-[16%] left-[25%]  bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
             <p className="absolute left-6 top-6 text-2xl font-semibold text-left capitalize text-white">
               Q 2022
             </p>
@@ -36,7 +36,7 @@ const Roadmap = () => {
               Mobile Version Launch
             </p>
           </div>
-          <div className=" w-[300.59px] h-[226.75px] top-[28%] right-[25%] bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
+          <div className="  lg:w-[300.59px] w-[98%] mx-auto h-[226.75px] top-[28%] right-[25%] bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
             <p className="absolute left-6 top-6 text-2xl font-semibold text-left capitalize text-white">
               Q 2022
             </p>
@@ -57,7 +57,7 @@ const Roadmap = () => {
               Mobile Version Launch
             </p>
           </div>
-          <div className=" w-[300.59px] h-[226.75px] lg:top-[40%]  left-[25%] bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
+          <div className=" lg:w-[300.59px] w-[98%] mx-auto h-[226.75px] lg:top-[40%]  left-[25%] bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
             <p className="absolute left-6 top-6 text-2xl font-semibold text-left capitalize text-white">
               Q 2022
             </p>
@@ -78,7 +78,7 @@ const Roadmap = () => {
               Mobile Version Launch
             </p>
           </div>
-          <div className=" w-[300.59px] h-[226.75px] bottom-[30%] right-[25%] bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
+          <div className=" lg:w-[300.59px] w-[98%] mx-auto h-[226.75px] bottom-[30%] right-[25%] bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
             <p className="absolute left-6 top-6 text-2xl font-semibold text-left capitalize text-white">
               Q 2022
             </p>
@@ -99,7 +99,7 @@ const Roadmap = () => {
               Mobile Version Launch
             </p>
           </div>
-          <div className=" w-[300.59px] h-[226.75px] bottom-[18%] left-[25%] bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
+          <div className=" lg:w-[300.59px] w-[98%] mx-auto h-[226.75px] bottom-[18%] left-[25%] bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
             <p className="absolute left-6 top-6 text-2xl font-semibold text-left capitalize text-white">
               Q 2022
             </p>
@@ -120,7 +120,7 @@ const Roadmap = () => {
               Mobile Version Launch
             </p>
           </div>
-          <div className=" w-[300.59px] h-[226.75px] bottom-[4%] right-[25%] bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
+          <div className=" lg:w-[300.59px] w-[98%] mx-auto h-[226.75px] bottom-[4%] right-[25%] bg-[#141b22]/[0.58] backdrop-blur-[60px] lg:absolute ">
             <p className="absolute left-6 top-6 text-2xl font-semibold text-left capitalize text-white">
               Q 2022
             </p>

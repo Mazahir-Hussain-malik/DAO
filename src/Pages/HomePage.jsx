@@ -8,6 +8,8 @@ import {
   Investment,
   About,
   Roadmap,
+  Faqs,
+  Footer,
 } from "../Components/index";
 import Stats from "../Components/LandingPageComponents/Stats";
 
@@ -23,6 +25,8 @@ const HomePage = () => {
       <Investment />
       <About />
       <Roadmap />
+      <Faqs />
+      <Footer />
     </div>
   );
 };
