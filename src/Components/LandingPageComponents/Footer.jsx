@@ -38,32 +38,50 @@ const Footer = () => {
           </div>
           <div className="my-[2rem] grid grid-cols-6 md:gap-[2rem] gap-[1rem] md:w-[50%] mx-auto ">
             <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
-              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white ">
+              <a
+                href="#"
+                className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white "
+              >
                 <IoLogoTwitter />
               </a>
             </div>
             <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
-              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
+              <a
+                href="#"
+                className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white"
+              >
                 <FaFacebook />
               </a>
             </div>
             <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
-              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
+              <a
+                href="#"
+                className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white"
+              >
                 <BiLogoTelegram />
               </a>
             </div>
             <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
-              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
+              <a
+                href="#"
+                className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white"
+              >
                 <IoLogoYoutube />
               </a>
             </div>
             <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
-              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
+              <a
+                href="#"
+                className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white"
+              >
                 <IoLogoTwitter />
               </a>
             </div>
             <div className="md:w-[50px] w-[40px] md:h-[50px] h-[40px] relative rounded-lg bg-[#c3c4c6]/[0.15] hover:bg-slate-100/[0.5]">
-              <a href="#" className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white">
+              <a
+                href="#"
+                className="w-[20.32px] h-[21px] absolute left-[15px] top-3.5 md:text-xl text-[16px] text-center text-white"
+              >
                 <FaFacebook />
               </a>
             </div>
@@ -75,7 +93,7 @@ const Footer = () => {
         <div className="flex items-center justify-around md:flex-row flex-col">
           <div className="flex items-center py-[1rem] md:gap-[2rem] gap-[1rem] md:flex-row flex-col">
             <img src={logo} alt="" className="mt-[1rem]" />
-            <p className="md:text-[30px] text-[16px] text-[#C2C3C5] ">
+            <p className="md:text-[24px] text-[16px] text-[#C2C3C5] ">
               0xEthDao 2024 - ALL rights reserved
             </p>
           </div>

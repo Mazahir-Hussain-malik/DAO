@@ -3,34 +3,37 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "ClashDisplay";
-    src: local("GoldmanBold"),
-     url("./assets/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf") format("truetype");
-    font-weight: bold;
-   }
+  font-family: "ClashDisplay";
+  src: local("GoldmanBold"),
+    url("./assets/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf")
+      format("truetype");
+  font-weight: bold;
+}
 
-   @font-face {
-    font-family: 'Clash Display';
-    src: url('./assets/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Clash Display';
-    src: url('./assets/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Clash Display';
-    src: url('./assets/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf') format('truetype');
-    font-weight: medium;
-    font-style: normal;
-  }
+@font-face {
+  font-family: "Clash Display";
+  src: url("./assets/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "Clash Display";
+  src: url("./assets/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("./assets/ClashDisplay_Complete/Fonts/WEB/fonts/ClashDisplay-Variable.ttf")
+    format("truetype");
+  font-weight: medium;
+  font-style: normal;
+}
 
-  /* For webkit-based browsers */
+/* For webkit-based browsers */
 ::-webkit-scrollbar {
   width: 0.5em;
 }

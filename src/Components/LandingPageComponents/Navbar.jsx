@@ -14,11 +14,26 @@ const Navbar = () => {
   };
 
   const navlinks = [
-    "How it works",
-    "Treasury",
-    "About",
-    "FAQ",
-    "Fund your Project",
+    {
+      link: "#howItWork",
+      text: "How it works",
+    },
+    {
+      link: "#Treasury",
+      text: "Treasury",
+    },
+    {
+      link: "#About",
+      text: "About",
+    },
+    {
+      link: "#faqs",
+      text: "FAQ",
+    },
+    {
+      link: "#Fund",
+      text: "Fund your Project",
+    },
   ];
   return (
     <>
@@ -36,15 +51,13 @@ const Navbar = () => {
                     key={index}
                     className="text-[#fff] hover:text-[#0BDF0E] duration-all transition-all font-clash-display text-16 font-bold leading-24 tracking-wider uppercase list-none"
                   >
-                    <a href="#">
-                      {items}
-                    </a>
+                    <a href={items.link}>{items.text}</a>
                   </li>
                 );
               })}
             </div>
             <div className="">
-              <Link to='/dashboard'>
+              <Link to="/dashboard">
                 <Btn text={"Launch App"} />
               </Link>
             </div>
@@ -71,10 +84,11 @@ const Navbar = () => {
             </div>
 
             <div
-              className={`${toggle
-                ? "absolute h-screen bg-black w-[70%] top-[12%] transition-all ease-out delay-150"
-                : "hidden"
-                }`}
+              className={`${
+                toggle
+                  ? "absolute h-screen bg-black w-[70%] top-[12%] transition-all ease-out delay-150"
+                  : "hidden"
+              }`}
             >
               <div className="flex gap-[2rem] absolute left-[5%]   flex-col md:my-0 my-1">
                 {navlinks.map((items, index) => {
@@ -83,13 +97,13 @@ const Navbar = () => {
                       key={index}
                       className="text-[#fff] font-clash-display text-16 font-bold leading-26 tracking-wider uppercase list-none"
                     >
-                      {items}
+                      <a href={items.link}> {items.text}</a>
                     </li>
                   );
                 })}
               </div>
               <div className="absolute bottom-[55%] left-[5%]">
-                <Link to='/dashboard'>
+                <Link to="/dashboard">
                   <Btn text={"Launch App"} style={"z-[999] w-[100%]"} />
                 </Link>
               </div>

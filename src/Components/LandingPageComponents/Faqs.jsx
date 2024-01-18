@@ -63,10 +63,10 @@ const Faqs = () => {
           return (
             <div
               key={index}
-              className="shadow-xl bg-[#141B22] rounded-[10px] p-[1.5rem] w-full "
+              className="shadow-xl bg-[#141B22] rounded-[10px] p-[1.5rem] w-full hover:bg-[#28323b] transition-all ease-out delay-150 "
             >
               <h2
-                className="md:text-[30px] text-[24px] shadow-2xl  font-semibold  "
+                className="md:text-[24px] text-[24px] shadow-2xl  font-semibold  "
                 onClick={() => handlePopUp(index)}
               >
                 {items.heading}

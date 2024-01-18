@@ -17,16 +17,28 @@ const HomePage = () => {
   return (
     <div>
       <Navbar />
-      <Header />
-      <HowItWork />
-      <Treasury />
+      <div>
+        <Header />
+      </div>
+      <div id="howItWork">
+        <HowItWork />
+      </div>
+      <div id="Treasury">
+        <Treasury />
+      </div>
       <Markets />
       <Stats />
       <Investment />
-      <About />
+      <div id="About">
+        <About />
+      </div>
       <Roadmap />
-      <Faqs />
-      <Footer />
+      <div id="faqs">
+        <Faqs />
+      </div>
+      <div id="Fund">
+        <Footer />
+      </div>
     </div>
   );
 };

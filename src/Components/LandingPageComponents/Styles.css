@@ -51,3 +51,11 @@
   -webkit-backdrop-filter: blur(5.1px);
   border: 1px solid rgba(255, 255, 255, 0.29);
 }
+
+.social_icons {
+  border-radius: 14px;
+  opacity: 0.1;
+  background: url(../../assets/landingpage/header.svg),
+    lightgray 0% 0% / 100px 100px repeat;
+  mix-blend-mode: overlay;
+}

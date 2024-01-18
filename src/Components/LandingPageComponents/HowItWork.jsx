@@ -20,7 +20,7 @@ const HowItWork = () => {
         {/* global image is here */}
 
         <div className="absolute top-[0%]  bottom-0 md:left-[26%] left-0 md:w-auto w-[100%]  ">
-          <p className="md:text-[16px] text-[12px] text-[#fff] absolute md:top-[33%] top-[0%]  md:w-[30%] w-[100%] p-4  md:left-[38%] left-[0%] z-[999] font-semibold leading-[35px] text-justify">
+          <p className="md:text-[14px] text-[12px] text-[#fff] absolute md:top-[33%] top-[0%]  md:w-[30%] w-[100%] p-4  md:left-[38%] left-[0%] z-[999] font-semibold leading-[35px] text-justify">
             The higher your NFT the faster your 0xEth tokens multiply and the
             greater your share of the treasury assets from the Web3 projects
             MetFi invests in.
